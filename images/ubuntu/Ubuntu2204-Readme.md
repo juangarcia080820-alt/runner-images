@@ -4,8 +4,8 @@
 ***
 # Ubuntu 22.04
 - OS Version: 22.04.5 LTS
-- Kernel Version: 6.8.0-1044-azure
-- Image Version: 20260413.88.1
+- Kernel Version: 6.8.0-1051-azure
+- Image Version: 20260419.94.1
 - Systemd version: 249.11-0ubuntu3.20
 
 ## Installed Software
@@ -26,12 +26,12 @@
 - Perl 5.34.0
 - Python 3.10.12
 - Ruby 3.0.2p107
-- Swift 6.3
+- Swift 6.3.1
 
 ### Package Management
 - cpan 1.64
 - Helm 3.20.2
-- Homebrew 5.1.6
+- Homebrew 5.1.7
 - Miniconda 26.1.1
 - Npm 10.8.2
 - NuGet 6.6.1.2
@@ -39,7 +39,7 @@
 - Pip3 22.0.2
 - Pipx 1.11.1
 - RubyGems 3.3.5
-- Vcpkg (build from commit b80e006657)
+- Vcpkg (build from commit 256acc6401)
 - Yarn 1.22.22
 
 #### Environment variables
@@ -72,21 +72,21 @@ to accomplish this.
 - Bicep 0.42.1
 - Buildah 1.23.1
 - CMake 3.31.6
-- CodeQL Action Bundle 2.25.1
+- CodeQL Action Bundle 2.25.2
 - Docker Amazon ECR Credential Helper 0.12.0
 - Docker Compose v2 2.38.2
 - Docker-Buildx 0.33.0
 - Docker Client 28.0.4
 - Docker Server 28.0.4
-- Fastlane 2.232.2
+- Fastlane 2.233.0
 - Git 2.53.0
 - Git LFS 3.7.1
 - Git-ftp 1.6.0
 - Haveged 1.9.14
-- Heroku 11.2.0
+- Heroku 11.3.0
 - jq 1.6
 - Kind 0.31.0
-- Kubectl 1.35.3
+- Kubectl 1.35.4
 - Kustomize 5.8.1
 - Leiningen 2.12.0
 - MediaInfo 21.09
@@ -99,30 +99,30 @@ to accomplish this.
 - Packer 1.15.1
 - Parcel 2.16.4
 - Podman 3.4.4
-- Pulumi 3.230.0
+- Pulumi 3.231.0
 - R 4.5.3
 - Skopeo 1.4.1
 - Sphinx Open Source Search Server 2.2.11
 - SVN 1.14.1
 - Terraform 1.14.8
 - yamllint 1.38.0
-- yq 4.52.5
+- yq 4.53.2
 - zstd 1.5.7
 - Ninja 1.13.2
 
 ### CLI Tools
-- Alibaba Cloud CLI 3.3.4
-- AWS CLI 2.34.30
+- Alibaba Cloud CLI 3.3.8
+- AWS CLI 2.34.32
 - AWS CLI Session Manager Plugin 1.2.804.0
 - AWS SAM CLI 1.158.0
 - Azure CLI 2.85.0
 - Azure CLI (azure-devops) 1.0.2
-- GitHub CLI 2.89.0
-- Google Cloud CLI 564.0.0
-- Netlify CLI 24.11.1
-- OpenShift CLI 4.21.9
-- ORAS CLI 1.3.1
-- Vercel CLI 51.2.0
+- GitHub CLI 2.90.0
+- Google Cloud CLI 565.0.0
+- Netlify CLI 25.0.1
+- OpenShift CLI 4.21.10
+- ORAS CLI 1.3.2
+- Vercel CLI 51.7.0
 
 ### Java
 | Version             | Environment Variable |
@@ -135,7 +135,7 @@ to accomplish this.
 
 ### PHP Tools
 - PHP: 8.1.2
-- Composer 2.9.5
+- Composer 2.9.7
 - PHPUnit 8.5.52
 ```
 Both Xdebug and PCOV extensions are installed, but only Xdebug is enabled.
@@ -148,25 +148,25 @@ Both Xdebug and PCOV extensions are installed, but only Xdebug is enabled.
 - Stack 3.9.3
 
 ### Rust Tools
-- Cargo 1.94.1
-- Rust 1.94.1
-- Rustdoc 1.94.1
+- Cargo 1.95.0
+- Rust 1.95.0
+- Rustdoc 1.95.0
 - Rustup 1.29.0
 
 #### Packages
 - Bindgen 0.72.1
 - Cargo audit 0.22.1
-- Cargo clippy 0.1.94
-- Cargo outdated 0.18.0
+- Cargo clippy 0.1.95
+- Cargo outdated 0.19.0
 - Cbindgen 0.29.2
-- Rustfmt 1.8.0
+- Rustfmt 1.9.0
 
 ### Browsers and Drivers
-- Google Chrome 147.0.7727.55
-- ChromeDriver 147.0.7727.56
+- Google Chrome 147.0.7727.101
+- ChromeDriver 147.0.7727.57
 - Chromium 147.0.7727.0
-- Microsoft Edge 147.0.3912.60
-- Microsoft Edge WebDriver 147.0.3912.60
+- Microsoft Edge 147.0.3912.72
+- Microsoft Edge WebDriver 147.0.3912.72
 - Selenium server 4.43.0
 - Mozilla Firefox 149.0.2
 - Geckodriver 0.36.0
@@ -180,7 +180,7 @@ Both Xdebug and PCOV extensions are installed, but only Xdebug is enabled.
 | SELENIUM_JAR_PATH | /usr/share/java/selenium-server.jar   |
 
 ### .NET Tools
-- .NET Core SDK: 8.0.125, 8.0.206, 8.0.319, 8.0.419, 9.0.115, 9.0.205, 9.0.312, 10.0.105, 10.0.201
+- .NET Core SDK: 8.0.126, 8.0.206, 8.0.319, 8.0.420, 9.0.116, 9.0.205, 9.0.313, 10.0.106, 10.0.202
 - nbgv 3.9.50+6feeb89450
 
 ### Databases
@@ -218,7 +218,7 @@ Use the following command as a part of your job to start the service: 'sudo syst
 #### Node.js
 - 20.20.2
 - 22.22.2
-- 24.14.1
+- 24.15.0
 
 #### Python
 - 3.10.20
